@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello User!", "Hi There!", "Welcome!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you"],
+      "responses": ["Goodbye!", "Take Care!"]
+    },
+    {
+      "tag": "python",
+      "patterns": ["What is python"],
+      "responses": ["Python is a programming language"]
+    }
+  ]
+}
